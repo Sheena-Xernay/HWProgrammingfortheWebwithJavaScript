@@ -16,7 +16,7 @@ var curNum = "";
 // var loadCur;
 //reset and clear
 var resetDis = function() {
-    display.val('cleared');
+    display.val('');
     justCleared = true;
     newNumber = false;
     stillOperating = false;
@@ -83,7 +83,6 @@ $("#button0").click(function(){
 //calculate function
 $("#addButton").click(function(){
 	// var loadCur = curNum;
-
 	preNum = curNum;
 	resetDis();
 	$(".p").val =(preNum);
