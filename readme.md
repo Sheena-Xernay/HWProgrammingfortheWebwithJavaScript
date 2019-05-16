@@ -1,3 +1,7 @@
+#### JS hw3:
+calculator
+
+
 #### here's the link to JS hw4:
 React 
 - click text to show: checkbox, button
